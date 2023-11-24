@@ -30,4 +30,14 @@ export class UncommonPageComponent {
   deleteClient(): void{
     this.clients.shift();
   }
+
+  // slicepipe
+
+  // KeyValue Pipe
+  public person = {
+    name: 'Hulford',
+    age: 17,
+    address: 'Ottawa, Canada'
+
+  }
 }
