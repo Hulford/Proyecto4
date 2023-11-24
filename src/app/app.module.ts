@@ -4,7 +4,7 @@ import { AppComponent } from './app.component';
 import { AppRouterModule } from './app-routing.module';
 import { SharedModule } from './shared/components/menu/shared.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { ButtonModule } from 'primeng/button';
 
 
 @NgModule({
@@ -16,7 +16,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
 AppRouterModule,
 SharedModule,
-BrowserAnimationsModule
+BrowserAnimationsModule,
+ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
