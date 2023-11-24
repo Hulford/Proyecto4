@@ -1,0 +1,8 @@
+.grid {
+  display: flex;
+}
+.col-4 {
+  flex: 1;
+  padding: 8px;
+  margin-right: 8px; /* Ajusta el margen derecho según sea necesario */
+}
