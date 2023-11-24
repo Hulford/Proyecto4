@@ -17,7 +17,12 @@ label="Cambiar persona">
   </div>
   <div class="col-6">
     <p-fieldset legend="i18nPlural Pipe" [toggleable]="true">
-
+<p>
+  Actualmente {{clients.length | i18nPlural:clientsMap}}
+</p>
+<p-button
+(click)="deleteClient()"
+label="Borrar cliente"></p-button>
     </p-fieldset>
   </div>
 
