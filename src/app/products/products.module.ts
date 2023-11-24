@@ -9,12 +9,19 @@ import { PrimeNgModule } from '../primeNg/primeNg.module';
 import { OrderComponent } from './pages/order/order.component';
 
 
+import { ToggleCasePipe } from './pipes/toggle-case.pipe';
+
+
 @NgModule({
   declarations: [
     BasicsPageComponent,
     UncommonPageComponent,
     NumbersPageComponent,
-    OrderComponent
+    OrderComponent,
+
+
+    //Pipes
+    ToggleCasePipe,
   ],
   imports: [
     CommonModule,
